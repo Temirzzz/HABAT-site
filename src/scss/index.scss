@@ -239,6 +239,11 @@ header {
     margin-left: 318px;
 }
 
+.slider3__info {
+    max-width: 493px;
+    margin-left: 318px;
+}
+
 .slider__info__heading {
     font-family: "Arvo-Bold";
     font-size: 30px;
@@ -246,6 +251,12 @@ header {
     width: 350px;
     margin-bottom: 10px;
     text-transform: uppercase;
+}
+
+.slider3__info__heading {
+    min-width: 560px;
+    margin-bottom: 93px;
+    padding-top: 277px;
 }
 
 .slider__info__logo {
@@ -287,6 +298,10 @@ header {
     height: 70px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 16px #00000029;
+}
+
+.slider3__dots {
+    margin: 180px auto 0;
 }
 
 .slider__dots__arrow_left,
@@ -417,8 +432,9 @@ header {
 
 .cart-block__info p {
     text-align: center;
-    font-family: "Prompt-Regular";
+    font-family: "Roboto-Regular";
     font-size: 16px;
+    line-height: 28px;
 }
 
 .cart-block__info__btns {
@@ -585,7 +601,6 @@ header {
    display: flex;
    flex-wrap: wrap;
    padding: 73px 68px 0 110px;
-   min-width: 851px;
    border-right: 1px solid #D2D2D2;
 }
 
@@ -622,8 +637,8 @@ header {
 }
 
 .menu-slider__info__block-second {
-    width: 388px;
-   padding: 73px 65px 0 50px;
+    max-width: 350px;
+    padding: 73px 45px 0 45px;
 }
 
 .menu-slider__block__heading_marg {
@@ -656,6 +671,7 @@ header {
     width: 220px;
     min-height: 60px;
     margin-top: 240px;
+    border: none;
     cursor: pointer;
 }
 
@@ -707,7 +723,7 @@ header {
 }
 
 .slider2__dots {
-    margin: 170px auto 0;
+    margin: 140px auto 0;
 }
 
 .slider2__info__heading {
@@ -794,6 +810,11 @@ footer {
     margin-bottom: 30px;
 }
 
+.footer__item {
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+}
+
 .footer__contact__tel {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -819,10 +840,11 @@ footer {
 }
 
 .facebook__logo p {
-    font-size: 15px;
+    font-size: 14px;
     color: #FFFFFF;
     margin-left: 47px;
     padding-top: 16px;
+    width: 240px;
 }
 
 .facebook__logo img {
@@ -862,6 +884,10 @@ footer {
 }
 
 .footer__rights__item_third {
+    width: 105px;
+}
+
+.footer__rights__item_third img {
     width: 105px;
 }
 
@@ -971,6 +997,15 @@ footer {
         height: unset;
         line-height: unset;
     }
+    .slider3__info {
+        max-width: 493px;
+        margin-left: 40px;
+    }
+    .slider3__info__heading {
+        min-width: unset;
+        margin-bottom: 63px;
+        padding-top: 277px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -984,6 +1019,10 @@ footer {
     }
     .header__contact {
         margin-top: 40px;
+    }
+    .slider2__info__heading {
+        font-size: 32px;
+        padding: 0 20px;
     }
     /*MENU*/
     .header-menu__nav__ul {
@@ -1018,6 +1057,9 @@ footer {
     }
     .slider__info__item {
         padding: 0 20px;
+    }
+    .slider3__info__heading {
+        padding-top: 320px;
     }
     /*MENU*/
     .menu-slider__block__wrapper_first {
@@ -1272,6 +1314,9 @@ footer {
     .slider-block__part2 p, 
     .slider-block__part3 p {
         width: 164px;
+    }
+    .slider3__info__heading {
+        padding-top: 60px;
     }
 
     /*CART*/
